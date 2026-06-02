@@ -1,0 +1,6 @@
+arr = [1, 2, 3, 4]
+
+arr.append(5)
+arr.pop()
+arr.sort()
+arr.reverse()
