@@ -1,0 +1,10 @@
+s = "Python"
+
+len(s)          # Length
+s[0]            # First character
+s[-1]           # Last character
+s[::-1]         # Reverse
+s.upper()       # Uppercase
+s.lower()       # Lowercase
+s.split()       # String -> List
+" ".join(lst)   # List -> String
