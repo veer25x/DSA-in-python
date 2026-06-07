@@ -1,0 +1,4 @@
+s = "VEER"
+
+for ch in s:
+    print(ch)
