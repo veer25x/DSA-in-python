@@ -1,3 +1,4 @@
+# example 1
 arr = [10, 5, 30, 15]
 
 largest = arr[0]
@@ -7,3 +8,17 @@ for num in arr:
         largest = num
 
 print(largest)
+
+# second
+arr = [10, 25, 7, 42, 18]
+
+largest = arr[0]
+
+for num in arr:
+    if num > largest:
+        largest = num
+
+print("Largest element:", largest)
+
+#logic is same
+#we can use max function
