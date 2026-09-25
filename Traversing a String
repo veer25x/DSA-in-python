@@ -2,3 +2,6 @@ s = "VEER"
 
 for ch in s:
     print(ch)
+
+if ch == s
+print("errror",ch)
