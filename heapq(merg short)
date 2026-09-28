@@ -1,0 +1,12 @@
+import heapq
+
+list1 = [1, 3, 5, 7]
+list2 = [2, 4, 6, 8]
+list3 = [0, 9, 10]
+
+# heapq.merge returns an iterator
+merged_iterator = heapq.merge(list1, list2, list3)
+
+# Convert iterator to a list
+merged_list = list(merged_iterator)
+print(merged_list)  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
