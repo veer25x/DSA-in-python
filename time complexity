@@ -1,0 +1,17 @@
+print("hello")
+o(1)
+
+
+for single loop o(n)
+for i in range(10):
+    print(i)
+
+
+
+for lool inside loop  o(n^2)
+for i in range(5):
+    for j in range(5):
+       print(end = " * ")
+
+
+for while loop n(logn)
